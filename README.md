@@ -1,5 +1,7 @@
-> [!WARNING]
-> This repo will no longer receive updates. Thank you to everyone who supported it.
+```shell
+npm i @dccxx/puppeteer-real-browser
+```
+
 
 <br/>
 <p align="center">
