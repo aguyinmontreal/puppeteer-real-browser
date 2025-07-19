@@ -42,7 +42,7 @@ npm i @dccxx/puppeteer-real-browser
 If you are using a Linux operating system, xvfb must be installed for the library to work correctly.
 
 ```bash
-npm i puppeteer-real-browser
+npm i @dccxx/puppeteer-real-browser
 ```
 
 if you are using linux:
@@ -56,7 +56,7 @@ sudo apt-get install xvfb
 ### CommonJS
 
 ```js
-const { connect } = require("puppeteer-real-browser");
+const { connect } = require("@dccxx/puppeteer-real-browser");
 
 const start = async () => {
   const { page, browser } = await connect();
@@ -66,7 +66,7 @@ const start = async () => {
 ### Module
 
 ```js
-import { connect } from "puppeteer-real-browser";
+import { connect } from "@dccxx/puppeteer-real-browser";
 
 const { page, browser } = await connect();
 ```
@@ -74,7 +74,7 @@ const { page, browser } = await connect();
 ## Usage
 
 ```js
-const { connect } = require("puppeteer-real-browser");
+const { connect } = require("@dccxx/puppeteer-real-browser");
 
 async function test() {
   const { browser, page } = await connect({
@@ -131,7 +131,7 @@ npm i puppeteer-extra-plugin-click-and-wait
 ```js
 const test = require("node:test");
 const assert = require("node:assert");
-const { connect } = require("puppeteer-real-browser");
+const { connect } = require("@dccxx/puppeteer-real-browser");
 
 test("Puppeteer Extra Plugin", async () => {
   const { page, browser } = await connect({
